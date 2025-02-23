@@ -15,7 +15,12 @@ map("i", "jk", "<ESC>")
 
 -- NeoTree
 map("n", "<leader>e", "<CMD>Neotree toggle<CR>")
-map("n", "<leader>o", "<CMD>Neotree focus<CR>")
+map("n", "<leader>o", "<C-w>w<CR>")
+
+-- NeoGit
+map("n", "<leader>gg", "<CMD>Neogit<CR>")
+map("n", "<leader>gc", "<CMD>Neogit commit<CR>")
+
 
 -- ToggleTerm
 map("n", "<leader>t", "<CMD>ToggleTerm<CR>")
@@ -24,11 +29,11 @@ map("n", "<leader>t", "<CMD>ToggleTerm<CR>")
 map("n", "<leader>v", "<CMD>vsplit<CR>")
 map("n", "<leader>p", "<CMD>split<CR>")
 
--- Window Navigation
-map("n", "<C-h>", "<C-w>h")
-map("n", "<C-l>", "<C-w>l")
-map("n", "<C-k>", "<C-w>k")
-map("n", "<C-j>", "<C-w>j")
+-- Move Windows
+map("n", "<leader>h", "<C-w>h")
+map("n", "<leader>l", "<C-w>l")
+map("n", "<leader>j", "<C-w>j")
+map("n", "<leader>k", "<C-w>k")
 
 -- Resize Windows
 map("n", "<C-Left>", "<C-w><")
