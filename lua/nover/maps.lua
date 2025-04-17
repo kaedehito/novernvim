@@ -29,6 +29,9 @@ map("n", "<leader>t", "<CMD>ToggleTerm<CR>")
 map("n", "<leader>v", "<CMD>vsplit<CR>")
 map("n", "<leader>p", "<CMD>split<CR>")
 
+-- Delete Windows
+map("n", "<leader>q", "<C-w>q")
+
 -- Move Windows
 map("n", "<leader>h", "<C-w>h")
 map("n", "<leader>l", "<C-w>l")
